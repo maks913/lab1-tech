@@ -1,10 +1,10 @@
 package ua.edu.nuos.lab1tech.task;
 
 public class IntegralCalculator {
-    private double a;
-    private double b;
-    private int n;
-    private Function f;
+    private final double a;
+    private final double b;
+    private final int n;
+    private final Function f;
 
     public IntegralCalculator(double a, double b, int n, Function f) {
         this.a = a;
