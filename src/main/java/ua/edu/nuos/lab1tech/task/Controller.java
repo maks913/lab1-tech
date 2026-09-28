@@ -20,6 +20,9 @@ public class Controller {
         double a = 1.0;
         double b = 4.0;
 
+        totalSum = 0;
+        finished = 0;
+
         Function f = new Function();
         int n = Integer.parseInt(intervals.getText());
         int numberOfThreads = Integer.parseInt(threads.getText());
